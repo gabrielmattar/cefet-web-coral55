@@ -53,7 +53,7 @@ h2 > em {
 
 }
 aside > h2 {
-  margin: 150px 0px;
+  margin: 150px 0px 100px 0px;
   transform: rotate(-90deg) translatey(-40px);
   float: left;
   font-size: 48px;
@@ -77,5 +77,16 @@ footer img {
     margin: 0 auto;
 }
 
-body {
+#bolhas {
+  margin-left: 50px;
+}
+
+#peixe {
+  margin-top: 10px;
+  margin-left: -50px;
+}
+#ticket {
+  top: 45%;
+  position: fixed;
+  display: block;
 }
