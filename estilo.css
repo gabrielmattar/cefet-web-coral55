@@ -24,7 +24,9 @@ h2 > em {
 
 #cardapio {
   float: right;
+  box-sizing: border-box;
   width: 646px;
+  padding: 15px;
   border: solid 1px #aac0ae;
   display: inline-block;
   position: relative;
@@ -39,6 +41,14 @@ h2 > em {
 #rodape {
   clear: right;
 }
+
+.item {
+  width: 100%;
+}
+.preco {
+  float: right;
+}
+
 #conteudo {
 
 }
@@ -53,6 +63,12 @@ aside > h2 {
 #cardapio h3 {
   font-family: "Sans Serif";
   font-size: 18px;
+}
+
+footer img {
+  position: relative;
+  left: 650px;
+  padding: 46px 18px 25px 0px;
 }
 
 #recipiente{
